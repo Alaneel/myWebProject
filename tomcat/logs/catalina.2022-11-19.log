@@ -1,0 +1,394 @@
+19-Nov-2022 11:23:02.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+19-Nov-2022 11:23:02.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+19-Nov-2022 11:23:02.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+19-Nov-2022 11:23:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Nov-2022 11:23:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+19-Nov-2022 11:23:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Nov-2022 11:23:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+19-Nov-2022 11:23:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+19-Nov-2022 11:23:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2022 11:23:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 11:23:02.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 11:23:02.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Nov-2022 11:23:02.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Nov-2022 11:23:02.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Nov-2022 11:23:02.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Nov-2022 11:23:02.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Nov-2022 11:23:02.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alanwang/myWebProject/tomcat/conf/logging.properties
+19-Nov-2022 11:23:02.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2022 11:23:02.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2022 11:23:02.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2022 11:23:02.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2022 11:23:02.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2022 11:23:02.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 11:23:02.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 11:23:02.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alanwang/myWebProject/tomcat/temp
+19-Nov-2022 11:23:02.745 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alanwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2022 11:23:03.360 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 11:23:03.405 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1033] milliseconds
+19-Nov-2022 11:23:03.523 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2022 11:23:03.523 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+19-Nov-2022 11:23:03.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs]
+19-Nov-2022 11:23:04.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs] has finished in [528] ms
+19-Nov-2022 11:23:04.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager]
+19-Nov-2022 11:23:04.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager] has finished in [83] ms
+19-Nov-2022 11:23:04.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples]
+19-Nov-2022 11:23:04.616 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples] has finished in [471] ms
+19-Nov-2022 11:23:04.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT]
+19-Nov-2022 11:23:04.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT] has finished in [32] ms
+19-Nov-2022 11:23:04.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager]
+19-Nov-2022 11:23:04.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager] has finished in [35] ms
+19-Nov-2022 11:23:04.691 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 11:23:04.704 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1298] milliseconds
+19-Nov-2022 11:25:14.118 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 11:25:14.145 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2022 11:25:14.274 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 11:25:14.287 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 14:43:07.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+19-Nov-2022 14:43:07.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 14:43:07.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 14:43:07.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Nov-2022 14:43:07.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Nov-2022 14:43:07.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Nov-2022 14:43:07.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Nov-2022 14:43:07.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Nov-2022 14:43:07.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alanwang/myWebProject/tomcat/conf/logging.properties
+19-Nov-2022 14:43:07.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2022 14:43:07.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2022 14:43:07.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2022 14:43:07.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2022 14:43:07.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2022 14:43:07.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 14:43:07.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 14:43:07.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alanwang/myWebProject/tomcat/temp
+19-Nov-2022 14:43:07.741 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alanwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2022 14:43:08.272 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 14:43:08.308 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [918] milliseconds
+19-Nov-2022 14:43:08.417 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2022 14:43:08.417 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+19-Nov-2022 14:43:08.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs]
+19-Nov-2022 14:43:08.951 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs] has finished in [522] ms
+19-Nov-2022 14:43:08.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager]
+19-Nov-2022 14:43:09.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager] has finished in [112] ms
+19-Nov-2022 14:43:09.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples]
+19-Nov-2022 14:43:09.564 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples] has finished in [499] ms
+19-Nov-2022 14:43:09.564 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT]
+19-Nov-2022 14:43:09.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT] has finished in [29] ms
+19-Nov-2022 14:43:09.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello]
+19-Nov-2022 14:43:09.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello] has finished in [40] ms
+19-Nov-2022 14:43:09.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager]
+19-Nov-2022 14:43:09.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager] has finished in [28] ms
+19-Nov-2022 14:43:09.673 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 14:43:09.687 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1378] milliseconds
+19-Nov-2022 15:06:42.210 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:06:42.248 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2022 15:06:42.398 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:06:42.423 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:06:48.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+19-Nov-2022 15:06:49.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+19-Nov-2022 15:06:49.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+19-Nov-2022 15:06:49.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Nov-2022 15:06:49.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+19-Nov-2022 15:06:49.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Nov-2022 15:06:49.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+19-Nov-2022 15:06:49.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+19-Nov-2022 15:06:49.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2022 15:06:49.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:06:49.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:06:49.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Nov-2022 15:06:49.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Nov-2022 15:06:49.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Nov-2022 15:06:49.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Nov-2022 15:06:49.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Nov-2022 15:06:49.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alanwang/myWebProject/tomcat/conf/logging.properties
+19-Nov-2022 15:06:49.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2022 15:06:49.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2022 15:06:49.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2022 15:06:49.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2022 15:06:49.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2022 15:06:49.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:06:49.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:06:49.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alanwang/myWebProject/tomcat/temp
+19-Nov-2022 15:06:49.039 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alanwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2022 15:06:49.733 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:06:49.769 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1122] milliseconds
+19-Nov-2022 15:06:49.893 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2022 15:06:49.894 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+19-Nov-2022 15:06:49.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs]
+19-Nov-2022 15:06:50.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs] has finished in [536] ms
+19-Nov-2022 15:06:50.442 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager]
+19-Nov-2022 15:06:50.541 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager] has finished in [99] ms
+19-Nov-2022 15:06:50.541 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples]
+19-Nov-2022 15:06:51.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples] has finished in [529] ms
+19-Nov-2022 15:06:51.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT]
+19-Nov-2022 15:06:51.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT] has finished in [47] ms
+19-Nov-2022 15:06:51.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello]
+19-Nov-2022 15:06:51.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello] has finished in [73] ms
+19-Nov-2022 15:06:51.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager]
+19-Nov-2022 15:06:51.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager] has finished in [51] ms
+19-Nov-2022 15:06:51.252 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:06:51.265 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1495] milliseconds
+19-Nov-2022 15:07:37.518 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:07:37.536 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2022 15:07:37.676 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:07:37.695 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:08:06.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+19-Nov-2022 15:08:06.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+19-Nov-2022 15:08:06.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+19-Nov-2022 15:08:06.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Nov-2022 15:08:06.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+19-Nov-2022 15:08:06.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Nov-2022 15:08:06.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+19-Nov-2022 15:08:06.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+19-Nov-2022 15:08:06.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2022 15:08:06.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:08:06.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:08:06.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Nov-2022 15:08:06.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Nov-2022 15:08:06.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Nov-2022 15:08:06.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Nov-2022 15:08:06.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Nov-2022 15:08:06.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alanwang/myWebProject/tomcat/conf/logging.properties
+19-Nov-2022 15:08:06.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2022 15:08:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2022 15:08:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2022 15:08:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2022 15:08:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2022 15:08:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:08:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:08:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alanwang/myWebProject/tomcat/temp
+19-Nov-2022 15:08:06.798 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alanwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2022 15:08:07.476 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:08:07.539 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1118] milliseconds
+19-Nov-2022 15:08:07.649 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2022 15:08:07.649 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+19-Nov-2022 15:08:07.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs]
+19-Nov-2022 15:08:08.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs] has finished in [551] ms
+19-Nov-2022 15:08:08.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager]
+19-Nov-2022 15:08:08.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager] has finished in [120] ms
+19-Nov-2022 15:08:08.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples]
+19-Nov-2022 15:08:08.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples] has finished in [568] ms
+19-Nov-2022 15:08:08.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT]
+19-Nov-2022 15:08:08.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT] has finished in [49] ms
+19-Nov-2022 15:08:08.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello]
+19-Nov-2022 15:08:09.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello] has finished in [76] ms
+19-Nov-2022 15:08:09.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager]
+19-Nov-2022 15:08:09.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager] has finished in [44] ms
+19-Nov-2022 15:08:09.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:08:09.100 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1560] milliseconds
+19-Nov-2022 15:08:26.372 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:08:26.405 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2022 15:08:26.539 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:08:26.555 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:10:09.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+19-Nov-2022 15:10:09.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+19-Nov-2022 15:10:09.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+19-Nov-2022 15:10:09.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Nov-2022 15:10:09.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+19-Nov-2022 15:10:09.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Nov-2022 15:10:09.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+19-Nov-2022 15:10:09.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+19-Nov-2022 15:10:09.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2022 15:10:09.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:10:09.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:10:09.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Nov-2022 15:10:09.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Nov-2022 15:10:09.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Nov-2022 15:10:09.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Nov-2022 15:10:09.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Nov-2022 15:10:09.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alanwang/myWebProject/tomcat/conf/logging.properties
+19-Nov-2022 15:10:09.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2022 15:10:09.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2022 15:10:09.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2022 15:10:09.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2022 15:10:09.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2022 15:10:09.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:10:09.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:10:09.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alanwang/myWebProject/tomcat/temp
+19-Nov-2022 15:10:09.769 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alanwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2022 15:10:10.499 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:10:10.546 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1156] milliseconds
+19-Nov-2022 15:10:10.670 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2022 15:10:10.671 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+19-Nov-2022 15:10:10.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs]
+19-Nov-2022 15:10:11.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs] has finished in [526] ms
+19-Nov-2022 15:10:11.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager]
+19-Nov-2022 15:10:11.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager] has finished in [97] ms
+19-Nov-2022 15:10:11.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples]
+19-Nov-2022 15:10:11.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples] has finished in [544] ms
+19-Nov-2022 15:10:11.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT]
+19-Nov-2022 15:10:11.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT] has finished in [55] ms
+19-Nov-2022 15:10:11.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello]
+19-Nov-2022 15:10:11.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello] has finished in [67] ms
+19-Nov-2022 15:10:11.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager]
+19-Nov-2022 15:10:12.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager] has finished in [38] ms
+19-Nov-2022 15:10:12.018 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:10:12.032 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1484] milliseconds
+19-Nov-2022 15:16:00.424 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:16:00.436 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2022 15:16:00.606 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:16:00.627 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:16:02.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+19-Nov-2022 15:16:02.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+19-Nov-2022 15:16:02.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+19-Nov-2022 15:16:02.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Nov-2022 15:16:02.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+19-Nov-2022 15:16:02.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Nov-2022 15:16:02.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+19-Nov-2022 15:16:02.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+19-Nov-2022 15:16:02.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2022 15:16:02.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:16:02.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:16:02.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Nov-2022 15:16:02.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Nov-2022 15:16:02.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Nov-2022 15:16:02.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Nov-2022 15:16:02.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Nov-2022 15:16:02.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alanwang/myWebProject/tomcat/conf/logging.properties
+19-Nov-2022 15:16:02.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2022 15:16:02.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2022 15:16:02.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2022 15:16:02.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2022 15:16:02.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2022 15:16:02.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:16:02.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:16:02.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alanwang/myWebProject/tomcat/temp
+19-Nov-2022 15:16:02.681 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alanwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2022 15:16:03.382 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:16:03.430 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1131] milliseconds
+19-Nov-2022 15:16:03.542 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2022 15:16:03.542 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+19-Nov-2022 15:16:03.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs]
+19-Nov-2022 15:16:04.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs] has finished in [655] ms
+19-Nov-2022 15:16:04.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager]
+19-Nov-2022 15:16:04.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager] has finished in [108] ms
+19-Nov-2022 15:16:04.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples]
+19-Nov-2022 15:16:04.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples] has finished in [505] ms
+19-Nov-2022 15:16:04.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT]
+19-Nov-2022 15:16:04.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT] has finished in [44] ms
+19-Nov-2022 15:16:04.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello]
+19-Nov-2022 15:16:04.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello] has finished in [62] ms
+19-Nov-2022 15:16:04.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager]
+19-Nov-2022 15:16:04.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager] has finished in [39] ms
+19-Nov-2022 15:16:04.976 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:16:04.989 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1558] milliseconds
+19-Nov-2022 15:18:52.848 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:18:52.880 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2022 15:18:53.047 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:18:53.067 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:29:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+19-Nov-2022 15:29:08.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+19-Nov-2022 15:29:08.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+19-Nov-2022 15:29:08.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Nov-2022 15:29:08.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+19-Nov-2022 15:29:08.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Nov-2022 15:29:08.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+19-Nov-2022 15:29:08.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+19-Nov-2022 15:29:08.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2022 15:29:08.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:29:08.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:29:08.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Nov-2022 15:29:08.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Nov-2022 15:29:08.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Nov-2022 15:29:08.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Nov-2022 15:29:08.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Nov-2022 15:29:08.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alanwang/myWebProject/tomcat/conf/logging.properties
+19-Nov-2022 15:29:08.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2022 15:29:08.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2022 15:29:08.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2022 15:29:08.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2022 15:29:08.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2022 15:29:08.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:29:08.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:29:08.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alanwang/myWebProject/tomcat/temp
+19-Nov-2022 15:29:08.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alanwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2022 15:29:09.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:29:09.367 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1159] milliseconds
+19-Nov-2022 15:29:09.492 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2022 15:29:09.492 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+19-Nov-2022 15:29:09.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs]
+19-Nov-2022 15:29:10.593 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:29:10.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs] has finished in [1,250] ms
+19-Nov-2022 15:29:10.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager]
+19-Nov-2022 15:29:12.027 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:29:12.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager] has finished in [1,293] ms
+19-Nov-2022 15:29:12.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples]
+19-Nov-2022 15:29:13.004 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:29:13.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples] has finished in [974] ms
+19-Nov-2022 15:29:13.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT]
+19-Nov-2022 15:29:13.322 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:29:13.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT] has finished in [287] ms
+19-Nov-2022 15:29:13.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello]
+19-Nov-2022 15:29:13.666 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:29:13.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello] has finished in [406] ms
+19-Nov-2022 15:29:13.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager]
+19-Nov-2022 15:29:14.102 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:29:14.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager] has finished in [376] ms
+19-Nov-2022 15:29:14.112 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:29:14.134 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4766] milliseconds
+19-Nov-2022 15:40:23.168 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:40:23.188 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2022 15:40:23.344 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:40:23.371 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:40:31.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+19-Nov-2022 15:40:31.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+19-Nov-2022 15:40:31.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+19-Nov-2022 15:40:31.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Nov-2022 15:40:31.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+19-Nov-2022 15:40:31.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+19-Nov-2022 15:40:31.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
+19-Nov-2022 15:40:31.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+19-Nov-2022 15:40:31.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Nov-2022 15:40:31.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:40:31.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:40:31.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Nov-2022 15:40:31.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Nov-2022 15:40:31.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Nov-2022 15:40:31.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Nov-2022 15:40:31.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Nov-2022 15:40:31.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alanwang/myWebProject/tomcat/conf/logging.properties
+19-Nov-2022 15:40:31.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2022 15:40:31.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2022 15:40:31.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2022 15:40:31.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2022 15:40:31.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2022 15:40:31.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:40:31.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alanwang/myWebProject/tomcat
+19-Nov-2022 15:40:31.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alanwang/myWebProject/tomcat/temp
+19-Nov-2022 15:40:31.515 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alanwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Nov-2022 15:40:32.237 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:40:32.316 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1175] milliseconds
+19-Nov-2022 15:40:32.432 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2022 15:40:32.432 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+19-Nov-2022 15:40:32.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs]
+19-Nov-2022 15:40:33.441 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:40:33.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/docs] has finished in [1,060] ms
+19-Nov-2022 15:40:33.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager]
+19-Nov-2022 15:40:33.814 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:40:33.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/manager] has finished in [341] ms
+19-Nov-2022 15:40:33.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples]
+19-Nov-2022 15:40:34.484 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:40:34.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/examples] has finished in [671] ms
+19-Nov-2022 15:40:34.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT]
+19-Nov-2022 15:40:34.780 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:40:34.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/ROOT] has finished in [269] ms
+19-Nov-2022 15:40:34.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello]
+19-Nov-2022 15:40:35.091 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:40:35.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/hello] has finished in [322] ms
+19-Nov-2022 15:40:35.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager]
+19-Nov-2022 15:40:35.360 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Nov-2022 15:40:35.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alanwang/myWebProject/tomcat/webapps/host-manager] has finished in [258] ms
+19-Nov-2022 15:40:35.368 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:40:35.384 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3067] milliseconds
+19-Nov-2022 15:41:33.394 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:41:33.403 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2022 15:41:33.546 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+19-Nov-2022 15:41:33.565 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
